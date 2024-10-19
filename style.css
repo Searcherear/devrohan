@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap'); /* Adding an anime-style font */
+
 body {
-    background-color: #0D1117; /* Darker background */
-    color: #C9D1D9; /* Light grey text for better contrast */
-    font-family: 'Roboto', sans-serif; /* Use a clean modern font */
+    background-color: #0B0C10; /* Deep black for intense anime feel */
+    color: #E5E5E5; /* Soft grey for text */
+    font-family: 'Rock Salt', cursive; /* Anime-styled font */
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .container {
@@ -12,17 +14,19 @@ body {
     margin: 0 auto;
     padding: 40px;
     text-align: center;
-    background-color: #161B22; /* Slightly lighter background for the container */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    background-color: #1F2833; /* Dark grey background for the content area */
+    border-radius: 15px;
+    border: 4px solid #E63946; /* Naruto-inspired red-orange border */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7); /* Strong shadow for depth */
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 30px;
-    color: #58A6FF; /* Bright blue for the title */
-    letter-spacing: 1px;
+    color: #FF6F00; /* Bright orange to match Naruto’s iconic color */
     text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px #C53030; /* Anime-like text shadow */
 }
 
 ul {
@@ -31,27 +35,31 @@ ul {
 }
 
 li {
-    background-color: #21262D; /* Darker grey for each list item */
+    background-color: #272B30; /* Dark background for list items */
     margin: 15px 0;
-    padding: 15px;
-    border-radius: 8px;
-    border-left: 6px solid #58A6FF; /* Blue accent on the left */
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 8px solid #FF6F00; /* Bold orange left border */
+    color: #E63946; /* Strong red text inspired by action scenes */
     text-align: left;
-    font-size: 1.2em;
-    transition: transform 0.2s, background-color 0.2s; /* Add hover effect */
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif; /* Clean and bold font for readability */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 li:hover {
-    background-color: #30363D; /* Change background on hover */
-    transform: scale(1.02); /* Slight zoom effect */
+    background-color: #FF6F00; /* Turn list items orange on hover */
+    color: #1F2833; /* Switch to dark text for contrast */
+    transform: scale(1.05); /* Make the item pop */
 }
 
 a {
-    color: #58A6FF; /* Accent color for links */
+    color: #FF6F00; /* Bright orange links to match Naruto’s theme */
     text-decoration: none;
 }
 
 a:hover {
-    color: #1F6FEB; /* Slightly different shade on hover */
+    color: #F02E08; /* Bright red on hover */
     text-decoration: underline;
 }
+
