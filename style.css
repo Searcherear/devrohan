@@ -1,0 +1,35 @@
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #BB86FC;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #1F1F1F;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 4px solid #BB86FC;
+    text-align: left;
+    font-size: 1.2em;
+}
