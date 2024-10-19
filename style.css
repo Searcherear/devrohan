@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); /* Adding a bold, energetic font */
 
 body {
-    background-color: #1E1E1E; /* Dark background for contrast */
+    background: url('your-hd-image-url.jpg') no-repeat center center fixed; /* Add your HD image URL here */
+    background-size: cover; /* Ensures the image covers the entire background */
     color: #FFFFFF; /* White text for readability */
-    font-family: 'Bangers', cursive; /* Bold, comic-style font that matches Might Guy’s intensity */
+    font-family: 'Bangers', cursive; /* Bold, comic-style font */
     margin: 0;
     padding: 0;
     line-height: 1.8;
+    backdrop-filter: brightness(0.7); /* Darkens the background for readability (optional) */
 }
 
 .container {
@@ -14,9 +16,9 @@ body {
     margin: 0 auto;
     padding: 40px;
     text-align: center;
-    background-color: #1F6639; /* Might Guy green for the background of the container */
+    background-color: rgba(31, 102, 57, 0.8); /* Semi-transparent green background */
     border-radius: 15px;
-    border: 6px solid #FF8C00; /* Orange border inspired by his leg warmers */
+    border: 6px solid #FF8C00; /* Orange border */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Strong shadow for depth */
 }
 
@@ -26,7 +28,7 @@ h1 {
     color: #FF8C00; /* Bold orange for the headline */
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 3px 3px #0E5814; /* Green shadow for depth, matching Might Guy’s outfit */
+    text-shadow: 3px 3px #0E5814; /* Green shadow for depth */
 }
 
 ul {
@@ -35,7 +37,7 @@ ul {
 }
 
 li {
-    background-color: #2E8B57; /* Slightly darker green for list items */
+    background-color: rgba(46, 139, 87, 0.9); /* Semi-transparent green for list items */
     margin: 15px 0;
     padding: 20px;
     border-radius: 10px;
@@ -48,20 +50,19 @@ li {
 }
 
 li:hover {
-    background-color: #FF8C00; /* Turn list items orange on hover, representing Might Guy’s fiery energy */
+    background-color: #FF8C00; /* Turn list items orange on hover */
     color: #1F6639; /* Switch to green text for contrast */
-    transform: scale(1.1); /* Stronger zoom effect to represent Might Guy’s intense personality */
-    border-left: 8px solid #FFFFFF; /* White border on hover for extra contrast */
+    transform: scale(1.1); /* Stronger zoom effect */
+    border-left: 8px solid #FFFFFF; /* White border on hover for contrast */
 }
 
 a {
-    color: #FF8C00; /* Orange for links, matching the rest of the theme */
+    color: #FF8C00; /* Orange for links */
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #FFFFFF; /* White on hover to match the energetic theme */
+    color: #FFFFFF; /* White on hover */
     text-decoration: underline;
 }
-
