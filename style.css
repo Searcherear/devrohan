@@ -1,14 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); /* Adding a bold, energetic font */
-
+/* Kakashi-inspired dark theme */
 body {
-    background: url('your-hd-image-url.jpg') no-repeat center center fixed; /* Add your HD image URL here */
-    background-size: cover; /* Ensures the image covers the entire background */
-    color: #FFFFFF; /* White text for readability */
-    font-family: 'Bangers', cursive; /* Bold, comic-style font */
+    background-color: #0D1117; /* Darker background, subtle and mysterious */
+    color: #C9D1D9; /* Light grey text for better contrast */
+    font-family: 'Roboto', sans-serif; /* Use a clean, modern font */
     margin: 0;
     padding: 0;
-    line-height: 1.8;
-    backdrop-filter: brightness(0.7); /* Darkens the background for readability (optional) */
+    line-height: 1.6;
 }
 
 .container {
@@ -16,19 +13,17 @@ body {
     margin: 0 auto;
     padding: 40px;
     text-align: center;
-    background-color: rgba(31, 102, 57, 0.8); /* Semi-transparent green background */
-    border-radius: 15px;
-    border: 6px solid #FF8C00; /* Orange border */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Strong shadow for depth */
+    background-color: #161B22; /* Slightly lighter background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 30px;
-    color: #FF8C00; /* Bold orange for the headline */
+    color: #58A6FF; /* Bright blue for the title, representing Kakashi's calm demeanor */
+    letter-spacing: 1px;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    text-shadow: 3px 3px #0E5814; /* Green shadow for depth */
 }
 
 ul {
@@ -37,32 +32,61 @@ ul {
 }
 
 li {
-    background-color: rgba(46, 139, 87, 0.9); /* Semi-transparent green for list items */
+    background-color: #21262D; /* Darker grey for each list item */
     margin: 15px 0;
-    padding: 20px;
-    border-radius: 10px;
-    border-left: 8px solid #FF8C00; /* Bold orange left border */
-    color: #FFFFFF; /* White text to stand out on green */
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 6px solid #58A6FF; /* Blue accent on the left for a subtle, sleek design */
     text-align: left;
-    font-size: 1.5em;
-    font-family: 'Roboto', sans-serif; /* Clean, readable font for list items */
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    font-size: 1.2em;
+    transition: transform 0.2s, background-color 0.2s; /* Add hover effect */
 }
 
 li:hover {
-    background-color: #FF8C00; /* Turn list items orange on hover */
-    color: #1F6639; /* Switch to green text for contrast */
-    transform: scale(1.1); /* Stronger zoom effect */
-    border-left: 8px solid #FFFFFF; /* White border on hover for contrast */
+    background-color: #30363D; /* Slight change on hover, staying dark but creating depth */
+    transform: scale(1.02); /* Subtle zoom effect on hover for interactivity */
 }
 
 a {
-    color: #FF8C00; /* Orange for links */
+    color: #58A6FF; /* Blue accent for links */
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #FFFFFF; /* White on hover */
+    color: #1F6FEB; /* Slightly different shade of blue on hover */
     text-decoration: underline;
+}
+
+/* Button styling, if needed */
+button {
+    background-color: #58A6FF; /* Blue background for Kakashi’s calm but strong personality */
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1F6FEB; /* Darker blue on hover */
+}
+
+/* Additional responsive styling for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    li {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
 }
